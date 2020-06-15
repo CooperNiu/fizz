@@ -15,6 +15,10 @@ public class FizzBuzzTest {
     public void should_return_Fizz_given_3() {
         should_return_expect_given_number(3,"Fizz");
     }
+    @Test
+    public void should_return_Buzz_given_5() {
+        should_return_expect_given_number(5,"Buzz");
+    }
     void should_return_expect_given_number(int number, String expect)
     {
 //        given
