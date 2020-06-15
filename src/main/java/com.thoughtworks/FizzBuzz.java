@@ -32,5 +32,12 @@ public class FizzBuzz {
         return input;
     }
 
-    
+    public static void main(String args[]) {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        for (int i = 0; i < 20; i++) {
+            String res = fizzBuzz.result(i + 1);
+            System.out.println(res);
+        }
+    }
 }
